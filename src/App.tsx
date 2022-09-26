@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import Accordion from './Accordion';
 import './App.css';
+import Form from './Form';
+import Table from './Table';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <h1>Accessibility Examples</h1>
+            </header>
+            <Accordion />
+            <Form />
+            <Table />
+            <h2>Example of an accessible image:</h2>
+            <img src="https://placedog.net/500" alt="It's a dog" />
+        </div>
+    );
 }
 
 export default App;
