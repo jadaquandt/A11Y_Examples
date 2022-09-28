@@ -1,0 +1,33 @@
+.App {
+    width: 100%;
+}
+
+.App-header {
+    text-align: center;
+}
+
+.thisorthat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.codethis{
+    width: 960px;
+}
+
+.good-accordion, .bad-accordion, .good-form, .bad-form {
+    height: 200px;
+}
+
+.bad-form{
+    margin-right: 50px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
