@@ -45,3 +45,7 @@
 .filter-input {
     margin: 0 6px;
 }
+
+label {
+    padding: 5px;
+}
